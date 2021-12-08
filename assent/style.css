@@ -1,0 +1,100 @@
+
+body{
+  background-image: url(../img/fundo.jpg);
+}
+
+button{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    position:absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+  
+  .carta {
+    background-image: url('https://source.unsplash.com/random/70x150');
+    position: relative;
+    height: 70px;
+    width: 150px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+  }
+  
+  .hold {
+    border: solid 5px #ccc;
+  }
+  
+  .linha{
+    border: solid 3px grey;
+  margin-top: 45%;
+}
+
+    #um {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        float: left;
+        background-color: inherit;
+        border: solid 1px green;
+    }  
+
+
+    #dois {
+    position: relative;
+    
+    float: left;
+    }
+
+    #tres {
+    position: relative;
+    
+    float: left;
+    }
+
+    #quatro {
+      position: relative;
+      
+      float: left;
+    }  
+
+    #cinco{
+      position:relative;
+    
+      float: left;
+    }
+
+    #seis {
+      position: relative;
+      
+      float: left;
+    }
+      
+    #sete {
+      position: relative;    
+      float: left;
+    } 
+
+
+  .empty {
+    display: inline-block;
+    height: 80px;
+    width: 160px;
+    margin: 10px;
+    border: solid 3px grey;
+    background: green;
+
+  }
+  
+  .hovered {
+    background: #f4f4f4;
+    border-style: dashed;
+  }
+  
